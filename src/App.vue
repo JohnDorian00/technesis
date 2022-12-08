@@ -91,6 +91,6 @@ $margin: 50px;
 }
 
 .main__row_is-half {
-  width: 50%;
+  width: calc(50% - (2 * #{$margin}));
 }
 </style>
